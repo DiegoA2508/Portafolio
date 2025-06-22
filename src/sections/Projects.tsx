@@ -1,3 +1,5 @@
+import ProjectCard from "@/components/ProjectCard";
+
 type Project = {
     title: string;
     description: string;
@@ -19,23 +21,19 @@ const projects: Project[] = [
 
 export default function Projects() {
     return (
-        <section className="py-20 px-4 bg-white">
+        <section id="Projects" className="py-20 px-4 bg-blue">
             <h2 className="text-4xl font-bold text-center mb-12">Proyectos</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 {projects.map((project, index) => (
-                    <a 
+                    <ProjectCard 
                         key={index}
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="border p-6 rounded-x1 shadow hover:shadow-xl transition"
-                    >
-                        <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
-                        <p className="text-gray-600">{project.description}</p>
-                    </a>
+                        title={project.title}
+                        description={project.description}
+                        link={project.link}
+                    />
                 ))}
             </div>
         </section>
-    )
+    );
 }
     
