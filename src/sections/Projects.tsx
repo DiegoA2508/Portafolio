@@ -21,9 +21,9 @@ const projects: Project[] = [
 
 export default function Projects() {
     return (
-        <section id="Projects" className="py-20 px-4 bg-blue">
-            <h2 className="text-4xl font-bold text-center mb-12">Proyectos</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <section id="Projects" className="w-creen py-20 bg-white">
+            <h2 className="w-screen text-4xl font-bold text-center mb-12">Proyectos</h2>
+            <div className="text-center grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 {projects.map((project, index) => (
                     <ProjectCard 
                         key={index}

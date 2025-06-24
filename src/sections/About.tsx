@@ -1,15 +1,25 @@
 export default function About() {
-    return (
-        <section id="About" className="py-20 px-4 bg-gray-50">
-            <h2 className="text-4xl font-bold text-center mb-8">Sobre mí</h2>
-            <div className="max-w-3xl mx-auto text-center text-gray-700 text-lg leading-relaxed">
-                <p>
-                    Soy un ingeniero de sistemas y computación con enfoque FullStack. Tengo experiencia académica en desarrollo web con tecnologías como Java, Node.js y Python. También tengo interés en el desarrollo de videojuegos.
-                </p>
-                <p className="mt-4">
-                      Me gusta aprender constantemente y aplicar lo que sé en proyectos reales. Estoy buscando oportunidades para crecer profesionalmente y colaborar en equipos que valoren la creatividad y el código limpio.
-                </p>
-            </div>
-        </section>
-    );
+  return (
+    <section id="About" className="w-screen bg-blue-100 py-20">
+      <div className="text-center max-w-4xl mx-auto px-4">
+        <h2 className="text-4xl font-bold mb-6 text-gray-800">Sobre mí</h2>
+
+        <p className="text-lg mb-4 text-gray-700">
+          Soy ingeniero de sistemas con enfoque fullstack. Tengo formación académica en Java, Node.js,
+          Python y desarrollo web. Me apasiona la creación de software útil y disfruto resolver
+          problemas con código limpio y bien estructurado.
+        </p>
+
+        <p className="text-lg mb-4 text-gray-700">
+          Actualmente estoy explorando el desarrollo de videojuegos y aplicando mis conocimientos en
+          proyectos personales que integran creatividad y tecnología. Siempre estoy buscando crecer
+          profesionalmente y aportar valor a través del desarrollo de software.
+        </p>
+
+        <p className="italic text-sm text-gray-600 mt-6">
+          "La programación es el arte de pensar en términos de soluciones y no de problemas."
+        </p>
+      </div>
+    </section>
+  );
 }
