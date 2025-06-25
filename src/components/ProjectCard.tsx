@@ -1,6 +1,7 @@
 "use client";
 
 import { Github, ExternalLink } from "lucide-react";
+import Image from "next/image";
 
 type Project = {
     title: string;
@@ -19,9 +20,11 @@ const ProjectCard: React.FC<Project> = ({
             reverse ? "md:flex-row-reverse" : "md:flex-row"
         }`}
         >
-            <img
+            <Image
                 src={image}
                 alt={title}
+                width={500}
+                height={300}
                 className="w-full md:w-1/2 rounded-xl shadow-md"
             />
             <div className="md:w-1/2 mt-6 md:mt-0">

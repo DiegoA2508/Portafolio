@@ -1,5 +1,5 @@
 import { RiWhatsappLine } from 'react-icons/ri';
-import { Mail, Github, Linkedin } from 'lucide-react';
+import { Mail, Linkedin } from 'lucide-react';
 
 const Contact = () => {
     return (

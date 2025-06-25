@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Education() {
     const education = [
         {
@@ -27,9 +29,11 @@ export default function Education() {
                             key={index}
                             className="bg-white shadow-md rounded-xl p-6 flex flex-col items-center text-center hover:shadow-lg transition"
                         >
-                            <img 
+                            <Image 
                                 src={item.logo}
                                 alt={item.institution}
+                                width={100}
+                                height={100}
                                 className="w-80 h-80 object-contain mb-4"
                             />
                             <h3 className="text-xl font-semibold">{item.title}</h3>

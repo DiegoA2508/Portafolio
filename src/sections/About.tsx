@@ -17,7 +17,7 @@ export default function About() {
         </p>
 
         <p className="italic text-sm text-gray-600 mt-6">
-          "La programación es el arte de pensar en términos de soluciones y no de problemas."
+          ¨La programación es el arte de pensar en términos de soluciones y no de problemas.¨
         </p>
       </div>
     </section>
