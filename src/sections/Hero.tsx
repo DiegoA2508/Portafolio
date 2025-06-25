@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section 
       id="Hero" 
-      className="w-screen bg-white-100 py-20"
+      className="w-screen bg-gray-100 py-20"
       >
         <div className="text-center max-w-3xl mx-auto px-4">       
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4 text-center">

@@ -20,7 +20,7 @@ export default function Hobbies() {
     return (
         <section
             id="Hobbies"
-            className="w-screen bg-white py-20 text-center text-gray-800"
+            className="w-screen bg-gray-100 py-20 text-center text-gray-800"
         >
             <h2 className="text-4xl font-bold mb-12">Hobbies</h2>
 

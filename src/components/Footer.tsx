@@ -1,6 +1,7 @@
 export default function Footer(){
     return (
-        <footer className="w-screen bg-white py-6 text-center text-sm text-gray-500 border-t">
+        <footer className="w-screen bg-gray-100 pt-4 pb-6 text-center text-sm text-white-500 border-t ">
+
             <p>
                 © {new Date().getFullYear()} Diego Alexander Zúñiga. Todos los derechos reservados.
             </p>
