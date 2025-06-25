@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Portafolio - Diego Alexander Zúñiga",
   description: "Portafolio personal de Diego Alexander Zúñiga, ingeniero de sistemas y desarrollador frontend.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.ico",
   },
 };
 

@@ -1,3 +1,5 @@
+"use client";
+
 import {
     Gamepad2,
     Music,
@@ -5,7 +7,8 @@ import {
     Film,
     Dribbble,
 } from "lucide-react";
-import React from "react";
+import React, { use } from "react";
+import Image from "next/image";
 
 const hobbies = [
     { name: "Videojuegos", icon: Gamepad2 },
@@ -35,7 +38,9 @@ export default function Hobbies() {
                             React.createElement(hobby.icon, { className: "w-8 h-8 mb-2" })
                         ) : hobby.image ? (
                             // Render image
-                            <img
+                            <Image
+                                width={32}
+                                height={32}
                                 src={hobby.image}
                                 alt={hobby.name}
                                 className="w-8 h-8 mb-2"
