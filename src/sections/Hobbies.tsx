@@ -7,7 +7,7 @@ import {
     Film,
     Dribbble,
 } from "lucide-react";
-import React, { use } from "react";
+import React from "react";
 import Image from "next/image";
 
 const hobbies = [
