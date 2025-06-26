@@ -15,7 +15,7 @@ export default function Home() {
   return (
   <>
     <Navbar />
-      <main className="flex flex-col row-start-2 items-center sm:items-start pt-20 max-w-auto mx-auto px-4 sm:px-6 lg:px-8">
+      <main className="flex flex-col row-start-2 items-center sm:items-start pt-20 max-w-auto mx-auto ">
         <Hero />
         <About />
         <Skills />

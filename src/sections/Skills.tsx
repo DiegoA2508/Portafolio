@@ -11,15 +11,16 @@ import{
     TerminalSquare,
     Bug,
     Braces,
+    Cloud
 }from 'lucide-react';
 
-import { DiPython } from 'react-icons/di';
+import { DiPython, DiHtml5 } from 'react-icons/di';
 import { FaDocker } from 'react-icons/fa';
 
 import { motion } from 'framer-motion';
 
 const skills =[
-    { name: "HTML 5", icon: FileCode },
+    { name: "HTML 5", icon: DiHtml5 },
     { name: "JavaScript", icon: FileCode },
     { name: "PHP", icon: ServerCog },
     { name: "Node.js", icon: Code2 },
@@ -32,6 +33,7 @@ const skills =[
     { name: "Python", icon: DiPython },
     { name: "Docker", icon: FaDocker },
     { name: "Testing", icon: Bug },
+    { name: "Cloud", icon: Cloud },
 ];
 
 export default function Skills() {

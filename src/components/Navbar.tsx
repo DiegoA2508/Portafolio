@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const navItems = [
   { label: "Inicio", href: "#Hero" },
@@ -25,9 +26,17 @@ const Navbar = () => {
   return (
     <header className="w-full fixed top-0 left-0 z-50 bg-white shadow">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#Hero" className="text-2xl font-bold text-blue-600">
-          Diego
+        <a href="#Hero" className="flex items-center gap-2">
+          <Image
+            src="/favicon.png"
+            alt="Logo"
+            width={28}
+            height={28}
+            className="rounded"
+          />
+          <span className="text-2xl font-bold text-blue-600">Diego</span>
         </a>
+
 
         {/* Navegación de escritorio */}
         <nav className="hidden md:flex space-x-6">

@@ -32,9 +32,9 @@ export default function Education() {
                             <Image 
                                 src={item.logo}
                                 alt={item.institution}
-                                width={100}
-                                height={100}
-                                className="w-80 h-80 object-contain mb-4"
+                                width={800}
+                                height={80}
+                                className="w-60 h-60 object-contain mb-4"
                             />
                             <h3 className="text-xl font-semibold">{item.title}</h3>
                             <p className="text-xl text-gray-700 mt-1">{item.institution}</p>
